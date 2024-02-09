@@ -1,0 +1,29 @@
+body {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input,
+textarea {
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  padding: 8px 16px;
+  margin-top: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #4e75ff;
+  background: #4e75ff;
+  color: #fff;
+}
